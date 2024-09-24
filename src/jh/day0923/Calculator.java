@@ -1,4 +1,4 @@
-package jh;
+package jh.day0923;
 
 public class Calculator {
 
