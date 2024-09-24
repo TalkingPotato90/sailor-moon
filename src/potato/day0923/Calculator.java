@@ -1,4 +1,4 @@
-package potato;
+package potato.day0923;
 
 public class Calculator {
     public int plus(int a, int b) {
