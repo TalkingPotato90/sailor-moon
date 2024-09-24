@@ -1,4 +1,4 @@
-package potato;
+package potato.day0923;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -17,6 +17,7 @@ class CalculatorTest {
     }
 
     @Test
+    @DisplayName("덧셈 테스트")
     void testPlus(){
         assertEquals(3,calculator.plus(1,2));
         assertEquals(-1,calculator.plus(-4,3));
@@ -34,7 +35,7 @@ class CalculatorTest {
     }
 
     @Test
-    @DisplayName("마이너스 테스트")
+    @DisplayName("뺄셈 테스트")
     void testMinus(){
         assertThat(calculator.minus(1,2)).isEqualTo(-1);
     }
