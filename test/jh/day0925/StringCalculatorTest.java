@@ -3,6 +3,8 @@ package jh.day0925;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
@@ -42,5 +44,13 @@ public class StringCalculatorTest {
         assertThatThrownBy(() -> stringCalculator.plusNumber("+*"))
                 .isInstanceOf(IllegalArgumentException.class);
     } // testParam
+
+    @ParameterizedTest
+    @DisplayName("소문자, 대문자, 한자리 자연수 확인2")
+    @ValueSource(strings = {"aB", "ab1", "1AB", "+*"})
+    void testParam2(String param) {
+        assertThatThrownBy(() -> stringCalculator.plusNumber(param))
+                .isInstanceOf(IllegalArgumentException.class);
+    } // testParam2
 
 } // class
