@@ -3,6 +3,10 @@ package potato.day0925;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSources;
+import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.params.provider.ValueSources;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
@@ -56,5 +60,13 @@ class StringCalculatorTest {
         assertThatThrownBy(() -> stringCalculator.add("a!Towehdrbo")).isInstanceOf(IllegalArgumentException.class);
         assertThatThrownBy(() -> stringCalculator.add("일이삼사오")).isInstanceOf(IllegalArgumentException.class);
     }
+
+    @ParameterizedTest
+    @DisplayName("알파벳과 정수외의 문자가 있으면 예외2")
+    @ValueSource(strings = {"-", "a!Towehdrbo", "일이삼사오"} )
+    void checkValidateParam2(String str) {
+        assertThatThrownBy(() -> stringCalculator.add(str)).isInstanceOf(IllegalArgumentException.class);
+    }
+
 
 }
