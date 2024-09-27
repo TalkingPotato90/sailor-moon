@@ -13,7 +13,7 @@
   </tr>
   <tr>
     <td>스터디 시간</td>
-    <td>매일 오전 10시</td>
+    <td>평일 오전 10시 ~ 12시</td>
   </tr>
   <tr>
     <td>IDE</td>
@@ -24,12 +24,14 @@
 ## 👤 스터디 멤버
   <table>
     <tr>
+      <td>Github Link</td>
       <td align="center"><a href="https://github.com/TalkingPotato90"><img src="https://avatars.githubusercontent.com/u/138276030?v=4" width="100"></a></td>
       <td align="center"><a href="https://github.com/ljhee92"><img src="https://avatars.githubusercontent.com/u/77716414?v=4" width="100"></a></td>
     </tr>
     <tr>
-      <td align="center"><a href="https://github.com/TalkingPotato90">TalkingPotato90</a></td>
-      <td align="center"><a href="https://github.com/ljhee92">ljhee92</a></td>
+      <td>Blog Link</td>
+      <td align="center"><a href="https://talkingpotato90.github.io/">TalkingPotato90</a></td>
+      <td align="center"><a href="https://ju-heee.tistory.com/">ljhee92</a></td>
     </tr>
   </table>
 
@@ -52,4 +54,14 @@
 종료일 : 2024.10.10
 
 ## 🌈 주차별 학습 내용
-1주차 : 계산기를 구현하면서 배우는 JUnit 기초
+### 1주차
+|회차|주제|참고 예제|
+|---|---|---|
+|1|계산기|-|
+|2-1|각도기|https://school.programmers.co.kr/learn/courses/30/lessons/120829|
+|2-2|숫자 비교하기|https://school.programmers.co.kr/learn/courses/30/lessons/120807|
+|3|숨어있는 숫자의 덧셈(1)|https://school.programmers.co.kr/learn/courses/30/lessons/120851|
+|4|부분 문자열인지 확인하기|https://school.programmers.co.kr/learn/courses/30/lessons/181843|
+|5|가위바위보|https://school.programmers.co.kr/learn/courses/30/lessons/120839|
+
+### 2주차
