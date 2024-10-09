@@ -65,7 +65,13 @@
 |5|가위바위보|https://school.programmers.co.kr/learn/courses/30/lessons/120839|
 
 ### 2주차
+|일자|주제 - 멤버|링크|
+|---|---|---|
+|09.30 ~ 10.04|숫자 야구 - TalkingPotato90|https://github.com/TalkingPotato90/java-baseball-6|
+|09.30 ~ 10.04|숫자 야구 - ljhee92|https://github.com/ljhee92/java-baseball-6|
+
+### 3주차
 |회차|주제 - 멤버|링크|
 |---|---|---|
-|1-4|숫자 야구 - TalkingPotato90|https://github.com/TalkingPotato90/java-baseball-6|
-|1-4|숫자 야구 - ljhee92|https://github.com/ljhee92/java-baseball-6|
+|10.05 ~ 10.09|자동차 경주 - TalkingPotato90|https://github.com/TalkingPotato90/java-racingcar-6|
+|10.05 ~ 10.09|자동차 경주 - ljhee92|https://github.com/ljhee92/java-racingcar-6|
