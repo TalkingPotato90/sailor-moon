@@ -5,7 +5,7 @@
 <table>
   <tr>
     <td>진행 기간</td>
-    <td>2024.09.23 ~ 2024.10.10  </td>
+    <td>2024.09.23 ~ 2024.10.14  </td>
   </tr>
   <tr>
     <td>스터디 장소</td>
@@ -75,3 +75,9 @@
 |---|---|---|
 |10.05 ~ 10.09|자동차 경주 - TalkingPotato90|https://github.com/TalkingPotato90/java-racingcar-6|
 |10.05 ~ 10.09|자동차 경주 - ljhee92|https://github.com/ljhee92/java-racingcar-6|
+
+### 4주차
+|회차|주제 - 멤버|링크|
+|---|---|---|
+|10.10 ~ 10.14|로또 - TalkingPotato90|https://github.com/TalkingPotato90/java-lotto-6|
+|10.10 ~ 10.14|로또 - ljhee92|https://github.com/ljhee92/java-lotto-6|
